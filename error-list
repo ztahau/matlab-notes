@@ -1,0 +1,4 @@
+2017-02-20
+错误提示：Error using ==> svmtrain at 172 Group must be a vector
+解决方法：需要添加libsvm工具箱（with subfolders），并且需要编译matlab文件下的make.m，如果无法编译需要运行mex
+
